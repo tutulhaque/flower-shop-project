@@ -273,7 +273,7 @@ input[type=submit]:hover{
 }
 .testimonial-item{
     width: 420px;
-    height: 320px;
+    height: auto;
     background-color:#fff;
     padding: 30px;
     border-radius: 4px;
