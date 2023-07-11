@@ -57,10 +57,10 @@ p{
     font-weight: 700;
     line-height: normal;
     font-family: lato;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 .banner-content p{
-    padding-bottom: 25px;
+    padding-bottom: 30px;
 }
 
 .banner-img{
@@ -73,3 +73,70 @@ p{
     margin: 0px;
 }
 /* Banner Section CSS End */
+/* Featured Section CSS Start */
+.featured-section{
+    height: 700px;
+    padding-top: 80px;
+}
+.featured-section-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.featured-section-title h1{
+    font-size: 40px;
+    font-family: lato;
+}
+.featured-section-title p{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 0px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.featured-flowers{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    
+}
+.featured-flower:nth-child(2) {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+.featured-flower:nth-child(3) {
+    background-color:rgba(71, 125, 17, 0.15);
+}
+
+.featured-flower{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 20px; */
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 50% 50% 0% 0%;
+    padding-top: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+.featured-flower img{
+    width: 100%;
+}
+.featured-title{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.featured-title a{
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+    padding-top: 20px;
+
+}
+/* Featured Section CSS End */
