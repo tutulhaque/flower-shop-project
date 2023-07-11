@@ -180,3 +180,36 @@ p{
     margin-bottom: 50px;
 }
 /* Hot Deal Section CSS End */
+/* Instagram Section CSS Start */
+.instagram-section{
+    padding-top: 80px;
+}
+
+.instagram-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.instagram-title h1{
+    font-size: 40px;
+    font-family: lato;
+}
+.instagram-title p{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 0px;
+    text-align: center;
+    line-height: 30px;
+}
+.instagram-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.instagram-item img{
+    width: 100%;
+}
+/* Instagram Section CSS End */
