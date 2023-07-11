@@ -297,6 +297,9 @@ input[type=submit]:hover{
     font-size: 40px;
     padding-bottom: 30px;
 }
+.testimonial-section p{
+    font-size: 18px !important;
+}
 .star{
     padding-top: 5px;
     color: #f4c0d7;
