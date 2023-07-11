@@ -156,3 +156,27 @@ p{
     
 }
 /* Icon Section CSS End */
+/* Hot Deal Section CSS Start */
+.hot-deal-section{
+    background-color: rgba(229, 84, 115, 0.05);
+    padding: 40px 0px;
+}
+.hot-deal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hot-deal-content{
+    width: 60%;
+    text-align: center;
+}
+.hot-deal-content h1{
+    font-size: 40px;
+    font-family: lato;
+    margin: 30px 0px;
+
+}
+.hot-deal-content p{
+    margin-bottom: 50px;
+}
+/* Hot Deal Section CSS End */
